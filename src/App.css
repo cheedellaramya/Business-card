@@ -1,38 +1,106 @@
-.App {
+*{
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+body{
+  margin: 0;
+  color:white;
+}
+.app-container{
+  width: 517px;
+  height:800px;
+  background-color: rgb(7, 22, 43);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px 10px;
+}
+.app-container-one{
+  background-color: rgb(16, 29, 37);
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 317px;
+}
+.main-container{
+  line-height: 1em;
+}
+.main-heading-content{
+  font-size: 23px;
   text-align: center;
+  margin: 15px 0px 8px 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-one-content{
+  text-align: center;
+  color:rgb(184, 184, 67);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-two-content{
+  display: block;
+  text-align: center;
+  font-size: 12px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttons{
   display: flex;
-  flex-direction: column;
+  margin-top: 1.02em;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.main-btn-email{
+  width:100px;
+  border-radius: 5px;
+  padding: 10px;
+  color:black;
 }
+.fa-regular {
+padding-right: 10px;
+}
+.main-btn-linkedin{
+  width:100px;
+  border-radius: 5px;
+  background-color: rgb(72, 72, 189);
+  color:#fff;
+  padding:10px;
+  
+}
+.fa-brands{
+  padding-right: 12px;
+}
+.main-about-interest{
+  width:247px;
+  height: 246px;
+  line-height: 1.08em;
+  padding: 10px;
+  padding-bottom: 4px;
+  margin:5px auto;
+  overflow: hidden;
+  font-size: 16px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.main-about-interest p{
+  font-size: 11px;
+  text-align: justify;
+  word-spacing: .05em;
+}
+.main-about-interest h3{
+  margin-bottom: 3px;
+  margin-top: 4px;
+}
+.footer-container{
+  background-color: rgba(0,42,105);
+  width: 317px;
+  height: 64px;
+  padding: 3px;
+  align-items: center;
+  vertical-align: middle;
+}
+.footer-items{
+  margin: 2px 55px;
+}
+.footer-icons{
+  height: 30px;
+  margin: 10px;
+  width: 30px;
+  margin-top: 20px;
 }
